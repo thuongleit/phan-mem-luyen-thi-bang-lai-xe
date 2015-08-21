@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/switcher_main_bgr" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/switcher_menu_bgr" >
+
+        <Button
+            android:id="@+id/switch_btnMenu"
+            style="@style/ButtonText"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_shape"
+            android:drawableRight="@drawable/switcher_menu_bottom"
+            android:padding="5dip"
+            android:text="Tất cả" />
+
+        <Button
+            android:id="@+id/switch_btnChangeView"
+            style="@style/ButtonText"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape"
+            android:drawableLeft="@drawable/switcher_menu_change_view"
+            android:padding="5dip"
+            android:text="Xem dạng Gridview" />
+    </RelativeLayout>
+
+    <ImageSwitcher
+        android:id="@+id/switcher"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/switch_list"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="60dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:id="@+id/switch_tenbb"
+        style="@style/ButtonText"
+        android:layout_below="@+id/switcher"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp" />
+
+    <TextView
+        android:id="@+id/switch_noidung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch_tenbb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#ffffff" 
+        android:padding="10dp"/>
+
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/switcher_slide_bgr"
+        android:gravity="center_vertical"
+        android:spacing="20dp" />
+
+</RelativeLayout>

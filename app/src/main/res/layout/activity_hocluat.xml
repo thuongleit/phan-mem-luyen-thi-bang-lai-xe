@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/m_brg" >
+
+    <TextView
+        android:id="@+id/luat_txtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luật giao thông đường bộ"
+        style="@style/ButtonText"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#EA151E"
+        android:textSize="17dp"/>
+
+    <ListView
+        android:id="@+id/luat_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollingCache="false">
+    </ListView>
+
+</LinearLayout>

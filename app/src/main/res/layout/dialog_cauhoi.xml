@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/dialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:textColor="#000000"/>
+     <Button
+        android:id="@+id/dialog_btnDapan"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/dialog_icon_dapan"
+        android:text="  Xem đáp án"
+        android:textSize="8sp"
+        android:textStyle="bold" 
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/dialog_dapan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"/>
+
+    <ImageView
+        android:id="@+id/dialog_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"/>
+
+    <ListView
+        android:id="@+id/dialog_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollingCache="false">
+    </ListView>
+
+</LinearLayout>

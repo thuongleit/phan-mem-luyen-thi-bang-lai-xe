@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/switcher_main_bgr" >
+
+    <RelativeLayout
+        android:id="@+id/relative_gird"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/switcher_menu_bgr"
+        android:layout_alignParentTop="true">
+
+
+         <Button
+             android:id="@+id/grid_btnMenu"
+             android:layout_alignParentLeft="true"
+             android:layout_centerInParent="true"
+             android:layout_marginLeft="10dp"
+             android:background="@drawable/button_shape"
+             android:drawableRight="@drawable/switcher_menu_bottom"
+             android:padding="5dip"
+             android:text="Tất cả"
+             style="@style/ButtonText"/>
+
+         <Button
+             android:id="@+id/grid_btnChangeView"
+             android:layout_alignParentRight="true"
+             android:layout_centerInParent="true"
+             android:layout_marginRight="10dp"
+             android:background="@drawable/button_shape"
+             android:drawableLeft="@drawable/switcher_menu_change_view"
+             android:padding="5dip"
+             android:text="Xem dạng duyệt ảnh"
+             style="@style/ButtonText"/>
+        
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/grid_bienbao"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="70dp"
+        android:gravity="center_horizontal"
+        android:horizontalSpacing="2dp"
+        android:numColumns="3"
+        android:padding="3dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="15dp"
+        android:layout_below="@+id/relative_gird"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp"
+        android:scrollingCache="false">
+	</GridView>
+</RelativeLayout>

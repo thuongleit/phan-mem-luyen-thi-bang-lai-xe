@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="mautrang">#FFFFFF</color>
+	<color name="dongho_xanh">#3bee23</color>	
+    <color name="tennguoithi">#146f28</color>
+    <color name="maunen_thi">#959595</color>
+    <color name="maunen_cauhoithi">#05175b</color>
+    <color name="maunen_cacphuongantraloi">#434343</color>
+    
+</resources>
