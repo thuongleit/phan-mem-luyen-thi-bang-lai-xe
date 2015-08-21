@@ -1,0 +1,96 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* db/
+* db/cauhoi.sql
+* db/lythuyetlaixe
+* db/lythuyetlaixe.sql
+* db/lythuyetlaixe.sqlite
+* proguard.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* bb_110b.JPG => bb_110b.jpg
+* bb_111d.JPG => bb_111d.jpg
+* bb_114.JPG => bb_114.jpg
+* bb_118.JPG => bb_118.jpg
+* bb_123b.JPG => bb_123b.jpg
+* bb_124b.JPG => bb_124b.jpg
+* bb_129.JPG => bb_129.jpg
+* bb_133.JPG => bb_133.jpg
+* bb_134.JPG => bb_134.jpg
+* bb_135.JPG => bb_135.jpg
+* bb_136.JPG => bb_136.jpg
+* bb_137.JPG => bb_137.jpg
+* bb_138.JPG => bb_138.jpg
+* bb_139.JPG => bb_139.jpg
+* bb_228.JPG => bb_228.jpg
+* bb_229.JPG => bb_229.jpg
+* bb_231.JPG => bb_231.jpg
+* bb_232.JPG => bb_232.jpg
+* bb_233.JPG => bb_233.jpg
+* bb_239.JPG => bb_239.jpg
+* bb_242b.JPG => bb_242b.jpg
+* bb_301a.JPG => bb_301a.jpg
+* bb_301b.JPG => bb_301b.jpg
+* bb_301c.JPG => bb_301c.jpg
+* bb_301d.JPG => bb_301d.jpg
+* bb_301e.JPG => bb_301e.jpg
+* bb_301f.JPG => bb_301f.jpg
+* bb_301h.JPG => bb_301h.jpg
+* bb_301i.JPG => bb_301i.jpg
+* bb_302a.JPG => bb_302a.jpg
+* bb_302b.JPG => bb_302b.jpg
+* bb_306.JPG => bb_306.jpg
+* bb_309.JPG => bb_309.jpg
+* bb_405a.JPG => bb_405a.jpg
+* bb_405b.JPG => bb_405b.jpg
+* bb_405c.JPG => bb_405c.jpg
+* bb_407b.JPG => bb_407b.jpg
+* bb_407c.JPG => bb_407c.jpg
+* bb_408a.JPG => bb_408a.jpg
+* bb_408b.JPG => bb_408b.jpg
+* bb_409.JPG => bb_409.jpg
+* bb_414a.JPG => bb_414a.jpg
+* bb_414b.JPG => bb_414b.jpg
+* bb_431.JPG => bb_431.jpg
+* bb_432.JPG => bb_432.jpg
+* bb_433.JPG => bb_433.jpg
+* bb_434.JPG => bb_434.jpg
+* bb_435.JPG => bb_435.jpg
+* bb_436.JPG => bb_436.jpg
+* bb_443.JPG => bb_443.jpg
+* bb_444.JPG => bb_444.jpg
+* bb_447.JPG => bb_447.jpg
+* switcher_main_bgr.PNG => switcher_main_bgr.png
+* switcher_menu_bgr.PNG => switcher_menu_bgr.png
+* switcher_slide_bgr.PNG => switcher_slide_bgr.png
+* t_bgr.PNG => t_bgr.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

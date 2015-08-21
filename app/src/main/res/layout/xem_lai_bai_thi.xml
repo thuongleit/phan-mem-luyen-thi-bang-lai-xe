@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maunen_thi"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="70" >
+
+            <TableLayout >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/xlbt_txtTenNguoiThi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="No Name"
+                        android:textColor="@color/tennguoithi"
+                        android:textSize="18dp"
+                        android:typeface="serif" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <ImageButton
+                            android:id="@+id/xlbt_btnThiPrev"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:background="@drawable/thi_back" />
+
+                        <TextView
+                            android:id="@+id/xlbt_txtDiem"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingLeft="40px"
+                            android:paddingRight="40px"
+                            android:text="Điểm Thi"
+                            android:textColor="@color/dongho_xanh"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:typeface="monospace" />
+
+                        <ImageButton
+                            android:id="@+id/xlbt_btnThiNext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:background="@drawable/thi_next" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </TableLayout>
+    </LinearLayout>
+    <!--
+    <Button android:id="@+id/xlbt_pause" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Pause"/>
+    <Button android:id="@+id/xlbt_resume" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Resume"/>
+    -->
+    <!-- cau hoi -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/xlbt_layoutCacCauHoi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_one"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_two"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_three"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_four"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_five"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_six"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_seven"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_eight"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_nine"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_ten"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_elevent"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_twelve"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_thirteen"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_fourteen"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_fifteen"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_sixteen"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_seventeen"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_eighteen"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_nineteen"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_twenty"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_t_one"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_t_two"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_t_three"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_t_four"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_t_five"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_t_six"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_t_seven"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_t_eight"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_t_nine"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageCau30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/n_thirty"
+                    android:paddingLeft="2px"
+                    android:paddingRight="2px" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/xlbt_layoutContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/maunen_cacphuongantraloi"
+        android:scrollbars="vertical" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/maunen_cauhoithi" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/xlbt_txtNoidungCauhoi"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5px"
+                    android:paddingLeft="8px"
+                    android:paddingTop="3px"
+                    android:textColor="@color/mautrang"
+                    android:textSize="15dp"
+                    android:typeface="sans" />
+
+                <ImageView
+                    android:id="@+id/xlbt_imageHinhChoCauHoi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingBottom="5px"
+                    android:paddingLeft="5px"
+                    android:paddingRight="5px"
+                    android:paddingTop="5px" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/maunen_cacphuongantraloi" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ListView
+                    android:id="@+id/xlbt_listPhuongAn"
+                    android:layout_width="320dp"
+                    android:layout_height="fill_parent"
+                    android:scrollbars="vertical" >
+                </ListView>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
